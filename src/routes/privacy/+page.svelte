@@ -1,5 +1,6 @@
 <script>
 	import logo from '$lib/assets/logo.png';
+	import { base } from '$app/paths';
 </script>
 
 <div class="container">
@@ -147,7 +148,7 @@
 	<!-- Footer -->
 	<footer class="footer">
 		<p>
-			<a href="/" class="back-link">← Back to Home / 返回首页</a>
+			<a href="{base}/" class="back-link">← Back to Home / 返回首页</a>
 		</p>
 		<p>© 2025 ScrapMind.com All rights reserved.</p>
 	</footer>
